@@ -1,0 +1,130 @@
+Looking in indexes: http://mirrors.tencentyun.com/pypi/simple
+Collecting fastapi
+  Downloading http://mirrors.tencentyun.com/pypi/packages/e4/72/42e900510195b23a56bde950d26a51f8b723846bfcaa0286e90287f0422b/fastapi-0.135.1-py3-none-any.whl (116 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 491.5 kB/s eta 0:00:00
+Collecting python-multipart
+  Downloading http://mirrors.tencentyun.com/pypi/packages/1b/d0/397f9626e711ff749a95d96b7af99b9c566a9bb5129b8e4c10fc4d100304/python_multipart-0.0.22-py3-none-any.whl (24 kB)
+Collecting rembg
+  Downloading http://mirrors.tencentyun.com/pypi/packages/ad/55/efd6ff54dd629022671c556dcc144df49f643aa865dc6c5956f050776aa5/rembg-2.0.73-py3-none-any.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 482.2 kB/s eta 0:00:00
+Collecting aiofiles
+  Downloading http://mirrors.tencentyun.com/pypi/packages/bc/8a/340a1555ae33d7354dbca4faa54948d76d89a27ceef032c8c3bc661d003e/aiofiles-25.1.0-py3-none-any.whl (14 kB)
+Collecting python-dotenv
+  Downloading http://mirrors.tencentyun.com/pypi/packages/0b/d7/1959b9648791274998a9c3526f6d0ec8fd2233e4d4acce81bbae76b44b2a/python_dotenv-1.2.2-py3-none-any.whl (22 kB)
+Collecting uvicorn[standard]
+  Downloading http://mirrors.tencentyun.com/pypi/packages/0a/89/f8827ccff89c1586027a105e5630ff6139a64da2515e24dafe860bd9ae4d/uvicorn-0.42.0-py3-none-any.whl (68 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.8/68.8 kB 470.9 kB/s eta 0:00:00
+Collecting starlette>=0.46.0 (from fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/81/0d/13d1d239a25cbfb19e740db83143e95c772a1fe10202dda4b76792b114dd/starlette-0.52.1-py3-none-any.whl (74 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.3/74.3 kB 408.2 kB/s eta 0:00:00
+Collecting pydantic>=2.7.0 (from fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/5a/87/b70ad306ebb6f9b585f114d0ac2137d792b48be34d732d60e597c2f8465a/pydantic-2.12.5-py3-none-any.whl (463 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 463.6/463.6 kB 488.2 kB/s eta 0:00:00
+Collecting typing-extensions>=4.8.0 (from fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.6/44.6 kB 479.2 kB/s eta 0:00:00
+Collecting typing-inspection>=0.4.2 (from fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/dc/9b/47798a6c91d8bdb567fe2698fe81e0c6b7cb7ef4d13da4114b41d239f65d/typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Collecting click>=7.0 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl (108 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 658.7 kB/s eta 0:00:00
+Collecting h11>=0.8 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting httptools>=0.6.3 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/84/a6/b3965e1e146ef5762870bbe76117876ceba51a201e18cc31f5703e454596/httptools-0.7.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (517 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 517.7/517.7 kB 632.6 kB/s eta 0:00:00
+Collecting pyyaml>=5.1 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/8b/9d/b3589d3877982d4f2329302ef98a8026e7f4443c765c46cfecc8858c6b4b/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 1.6 MB/s eta 0:00:00
+Collecting uvloop>=0.15.1 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/5f/6f/e62b4dfc7ad6518e7eff2516f680d02a0f6eb62c0c212e152ca708a0085e/uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (4.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 3.7 MB/s eta 0:00:00
+Collecting watchfiles>=0.20 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/cf/68/5707da262a119fb06fbe214d82dd1fe4a6f4af32d2d14de368d0349eb52a/watchfiles-1.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (456 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 456.8/456.8 kB 630.7 kB/s eta 0:00:00
+Collecting websockets>=10.4 (from uvicorn[standard])
+  Downloading http://mirrors.tencentyun.com/pypi/packages/18/29/71729b4671f21e1eaa5d6573031ab810ad2936c8175f03f97f3ff164c802/websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (184 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.9/184.9 kB 660.8 kB/s eta 0:00:00
+Collecting jsonschema<5.0.0,>=4.25.1 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 603.9 kB/s eta 0:00:00
+Collecting numpy<3.0.0,>=2.3.0 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/bd/79/cc665495e4d57d0aa6fbcc0aa57aa82671dfc78fbf95fe733ed86d98f52a/numpy-2.4.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 12.5 MB/s eta 0:00:00
+Collecting pillow<13.0.0,>=12.1.0 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/ff/79/6df7b2ee763d619cda2fb4fea498e5f79d984dae304d45a8999b80d6cf5c/pillow-12.1.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 4.9 MB/s eta 0:00:00
+Collecting pooch<2.0.0,>=1.8.2 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/2a/2d/d4bf65e47cea8ff2c794a600c4fd1273a7902f268757c531e0ee9f18aa58/pooch-1.9.0-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.2/67.2 kB 325.5 kB/s eta 0:00:00
+Collecting pymatting<2.0.0,>=1.1.14 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/c7/59/87a27f2539b0a9436853484e80f6a3ef96c30caa0316dce85f1f29d9e953/pymatting-1.1.15-py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.9/54.9 kB 588.7 kB/s eta 0:00:00
+Collecting scikit-image<0.27.0,>=0.26.0 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/f4/a2/70401a107d6d7466d64b466927e6b96fcefa99d57494b972608e2f8be50f/scikit_image-0.26.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (13.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.6/13.6 MB 12.9 MB/s eta 0:00:00
+Collecting scipy<2.0.0,>=1.16.3 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/01/8e/1e35281b8ab6d5d72ebe9911edcdffa3f36b04ed9d51dec6dd140396e220/scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.2/35.2 MB 10.7 MB/s eta 0:00:00
+Collecting tqdm<5.0.0,>=4.67.1 (from rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 kB 628.8 kB/s eta 0:00:00
+Collecting attrs>=22.2.0 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/3a/2a/7cc015f5b9f5db42b7d48157e23356022889fc354a2813c15934b7cb5c0e/attrs-25.4.0-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.6/67.6 kB 538.0 kB/s eta 0:00:00
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Collecting referencing>=0.28.4 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl (26 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/60/1b/6f8f29f3f995c7ffdde46a626ddccd7c63aefc0efae881dc13b6e5d5bb16/rpds_py-0.30.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (394 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.1/394.1 kB 810.6 kB/s eta 0:00:00
+Collecting platformdirs>=2.5.0 (from pooch<2.0.0,>=1.8.2->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/63/d7/97f7e3a6abb67d8080dd406fd4df842c2be0efaf712d1c899c32a075027c/platformdirs-4.9.4-py3-none-any.whl (21 kB)
+Collecting packaging>=20.0 (from pooch<2.0.0,>=1.8.2->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl (74 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.4/74.4 kB 565.7 kB/s eta 0:00:00
+Collecting requests>=2.19.0 (from pooch<2.0.0,>=1.8.2->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 320.2 kB/s eta 0:00:00
+Collecting annotated-types>=0.6.0 (from pydantic>=2.7.0->fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.41.5 (from pydantic>=2.7.0->fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/0d/76/941cc9f73529988688a665a5c0ecff1112b3d95ab48f81db5f7606f522d3/pydantic_core-2.41.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.2 MB/s eta 0:00:00
+Collecting numba>=0.60.0 (from pymatting<2.0.0,>=1.1.14->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/9b/89/1a74ea99b180b7a5587b0301ed1b183a2937c4b4b67f7994689b5d36fc34/numba-0.64.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 1.8 MB/s eta 0:00:00
+Collecting networkx>=3.0 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.6 MB/s eta 0:00:00
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/49/fa/391e437a34e55095173dca5f24070d89cbc233ff85bf1c29c93248c6588d/imageio-2.37.3-py3-none-any.whl (317 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.6/317.6 kB 734.0 kB/s eta 0:00:00
+Collecting tifffile>=2022.8.12 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/1a/e4/e804505f87627cd8cdae9c010c47c4485fd8c1ce31a7dd0ab7fcc4707377/tifffile-2026.3.3-py3-none-any.whl (243 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 244.0/244.0 kB 414.3 kB/s eta 0:00:00
+Collecting lazy-loader>=0.4 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/8a/a1/8d812e53a5da1687abb10445275d41a8b13adb781bbf7196ddbcf8d88505/lazy_loader-0.5-py3-none-any.whl (8.0 kB)
+Collecting anyio<5,>=3.6.2 (from starlette>=0.46.0->fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/38/0e/27be9fdef66e72d64c0cdc3cc2823101b80585f8119b5c112c2e8f5f7dab/anyio-4.12.1-py3-none-any.whl (113 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 113.6/113.6 kB 582.6 kB/s eta 0:00:00
+Collecting idna>=2.8 (from anyio<5,>=3.6.2->starlette>=0.46.0->fastapi)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.0/71.0 kB 344.9 kB/s eta 0:00:00
+Collecting llvmlite<0.47,>=0.46.0dev0 (from numba>=0.60.0->pymatting<2.0.0,>=1.1.14->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/aa/85/4890a7c14b4fa54400945cb52ac3cd88545bbdb973c440f98ca41591cdc5/llvmlite-0.46.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (56.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 22.6 MB/s eta 0:00:00
+Collecting charset_normalizer<4,>=2 (from requests>=2.19.0->pooch<2.0.0,>=1.8.2->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/4e/ef/79a463eb0fff7f96afa04c1d4c51f8fc85426f918db467854bfb6a569ce3/charset_normalizer-3.4.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (207 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.3/207.3 kB 672.7 kB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1 (from requests>=2.19.0->pooch<2.0.0,>=1.8.2->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl (131 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.6/131.6 kB 661.1 kB/s eta 0:00:00
+Collecting certifi>=2017.4.17 (from requests>=2.19.0->pooch<2.0.0,>=1.8.2->rembg)
+  Downloading http://mirrors.tencentyun.com/pypi/packages/9a/3c/c17fb3ca2d9c3acff52e30b309f538586f9f5b9c9cf454f3845fc9af4881/certifi-2026.2.25-py3-none-any.whl (153 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.7/153.7 kB 625.7 kB/s eta 0:00:00
+Installing collected packages: websockets, uvloop, urllib3, typing-extensions, tqdm, rpds-py, pyyaml, python-multipart, python-dotenv, platformdirs, pillow, packaging, numpy, networkx, llvmlite, idna, httptools, h11, click, charset_normalizer, certifi, attrs, annotated-types, annotated-doc, aiofiles, uvicorn, typing-inspection, tifffile, scipy, requests, referencing, pydantic-core, numba, lazy-loader, imageio, anyio, watchfiles, starlette, scikit-image, pymatting, pydantic, pooch, jsonschema-specifications, jsonschema, fastapi, rembg
+Successfully installed aiofiles-25.1.0 annotated-doc-0.0.4 annotated-types-0.7.0 anyio-4.12.1 attrs-25.4.0 certifi-2026.2.25 charset_normalizer-3.4.6 click-8.3.1 fastapi-0.104.1 h11-0.16.0 httptools-0.7.1 idna-3.11 imageio-2.37.3 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 lazy-loader-0.5 llvmlite-0.46.0 networkx-3.6.1 numba-0.64.0 numpy-2.4.3 packaging-26.0 pillow-12.1.1 platformdirs-4.9.4 pooch-1.9.0 pydantic-2.12.5 pydantic-core-2.41.5 pymatting-1.1.15 python-dotenv-1.2.2 python-multipart-0.0.22 pyyaml-6.0.3 referencing-0.37.0 rembg-2.0.73 requests-2.32.5 rpds-py-0.30.0 scikit-image-0.26.0 scipy-1.17.1 starlette-0.27.0 tifffile-2026.3.3 tqdm-4.67.3 typing-extensions-4.15.0 typing-inspection-0.4.2 urllib3-2.6.3 uvicorn-0.42.0 uvloop-0.22.1 watchfiles-1.1.1 websockets-16.0

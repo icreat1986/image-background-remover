@@ -1,0 +1,43 @@
+Looking in indexes: http://mirrors.tencentyun.com/pypi/simple
+Collecting fastapi==0.104.1 (from -r requirements.txt (line 1))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/f3/4f/0ce34195b63240b6693086496c9bab4ef23999112184399a3e88854c7674/fastapi-0.104.1-py3-none-any.whl (92 kB)
+Collecting uvicorn==0.24.0 (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/ed/0c/a9b90a856bbdd75bf71a1dd191af1e9c9ac8a272ed337f7200950c3d3dd4/uvicorn-0.24.0-py3-none-any.whl (59 kB)
+Collecting python-multipart==0.0.6 (from -r requirements.txt (line 3))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/b4/ff/b1e11d8bffb5e0e1b6d27f402eeedbeb9be6df2cdbc09356a1ae49806dbf/python_multipart-0.0.6-py3-none-any.whl (45 kB)
+Collecting pillow==10.1.0 (from -r requirements.txt (line 4))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/44/ed/a6f7dcd6631ec55b8d26c6a8bca762b04b7025daa3aa67e860a886abed89/Pillow-10.1.0-cp312-cp312-manylinux_2_28_x86_64.whl (3.6 MB)
+Collecting rembg==2.0.73 (from -r requirements.txt (line 5))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/ad/55/efd6ff54dd629022671c556dcc144df49f643aa865dc6c5956f050776aa5/rembg-2.0.73-py3-none-any.whl (44 kB)
+Collecting aiofiles==23.2.1 (from -r requirements.txt (line 6))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/c5/19/5af6804c4cc0fed83f47bff6e413a98a36618e7d40185cd36e69737f3b0e/aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting python-dotenv==1.0.0 (from -r requirements.txt (line 7))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/44/2f/62ea1c8b593f4e093cc1a7768f0d46112107e790c3e478532329e434f00b/python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Collecting anyio<4.0.0,>=3.7.1 (from fastapi==0.104.1->-r requirements.txt (line 1))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/19/24/44299477fe7dcc9cb58d0a57d5a7588d6af2ff403fdd2d47a246c91a3246/anyio-3.7.1-py3-none-any.whl (80 kB)
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.104.1->-r requirements.txt (line 1))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/5a/87/b70ad306ebb6f9b585f114d0ac2137d792b48be34d732d60e597c2f8465a/pydantic-2.12.5-py3-none-any.whl (463 kB)
+Collecting starlette<0.28.0,>=0.27.0 (from fastapi==0.104.1->-r requirements.txt (line 1))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/58/f8/e2cca22387965584a409795913b774235752be4176d276714e15e1a58884/starlette-0.27.0-py3-none-any.whl (66 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.104.1->-r requirements.txt (line 1))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Collecting click>=7.0 (from uvicorn==0.24.0->uvicorn[standard]==0.24.0->-r requirements.txt (line 2))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl (108 kB)
+Collecting h11>=0.8 (from uvicorn==0.24.0->uvicorn[standard]==0.24.0->-r requirements.txt (line 2))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting jsonschema<5.0.0,>=4.25.1 (from rembg==2.0.73->-r requirements.txt (line 5))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Collecting numpy<3.0.0,>=2.3.0 (from rembg==2.0.73->-r requirements.txt (line 5))
+  Using cached http://mirrors.tencentyun.com/pypi/packages/bd/79/cc665495e4d57d0aa6fbcc0aa57aa82671dfc78fbf95fe733ed86d98f52a/numpy-2.4.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+INFO: pip is looking at multiple versions of rembg to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r requirements.txt (line 5) and pillow==10.1.0 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested pillow==10.1.0
+    rembg 2.0.73 depends on pillow<13.0.0 and >=12.1.0
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
