@@ -17,6 +17,9 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
+  // 使用相对路径，自动适配部署环境
+  const API_BASE_URL = import.meta.env.VITE_API_URL || window.location.origin.replace(/:\d+$/, ':8000');
+
   const onDrop = async (acceptedFiles: File[]) => {
     const file = acceptedFiles[0];
     if (!file) return;
@@ -55,7 +58,7 @@ function App() {
 
     try {
       const response = await axios.post<UploadResponse>(
-        'http://localhost:8000/api/remove-background',
+        `${API_BASE_URL}/api/remove-background`,
         formData,
         {
           headers: { 'Content-Type': 'multipart/form-data' },
@@ -64,7 +67,11 @@ function App() {
       );
 
       if (response.data.processed_url) {
-        setProcessedUrl(response.data.processed_url);
+        // 处理相对路径，确保完整的 URL
+        const processedUrl = response.data.processed_url.startsWith('http')
+          ? response.data.processed_url
+          : `${API_BASE_URL}${response.data.processed_url}`;
+        setProcessedUrl(processedUrl);
       } else if (response.data.error) {
         setError(response.data.error);
       }
