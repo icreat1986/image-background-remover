@@ -17,8 +17,19 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
-  // 使用相对路径，自动适配部署环境
-  const API_BASE_URL = import.meta.env.VITE_API_URL || window.location.origin.replace(/:\d+$/, ':8000');
+  // 自动检测后端 URL：优先使用配置的 URL，否则使用当前域名改端口
+  const getApiBaseUrl = () => {
+    const configuredUrl = import.meta.env.VITE_API_URL;
+    if (configuredUrl) {
+      return configuredUrl;
+    }
+    // 如果没有配置，从当前 URL 推断
+    const currentOrigin = window.location.origin;
+    const url = new URL(currentOrigin);
+    return `${url.protocol}//${url.hostname}:8000`;
+  };
+
+  const API_BASE_URL = getApiBaseUrl();
 
   const onDrop = async (acceptedFiles: File[]) => {
     const file = acceptedFiles[0];

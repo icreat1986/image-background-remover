@@ -37,10 +37,10 @@ def validate_file(file: UploadFile) -> tuple[bool, str | None]:
     if ext not in ALLOWED_EXTENSIONS:
         return False, f"不支持的文件格式: {ext}"
 
-    # 检查大小
-    file.seek(0, 2)  # 移动到文件末尾
-    file_size = file.tell()
-    file.seek(0)  # 重置到开头
+    # 重置文件指针并读取内容来检查大小
+    content = file.file.read()
+    file.file.seek(0)  # 重置到开头
+    file_size = len(content)
 
     if file_size > MAX_FILE_SIZE:
         return False, f"文件过大 ({file_size / 1024 / 1024:.2f}MB)，最大支持 10MB"
