@@ -10,10 +10,10 @@ import uuid
 
 app = FastAPI(title="Image Background Remover API")
 
-# CORS 配置
+# CORS 配置 - 开发环境允许所有来源
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=["*"],  # 允许所有来源
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
