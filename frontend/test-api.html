@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>API Configuration Test</h1>
+    <div id="result"></div>
+    <script>
+        // 测试 API 请求
+        const testApi = async () => {
+            const API_BASE_URL = 'http://170.106.193.53:8000';
+            const resultDiv = document.getElementById('result');
+            
+            resultDiv.innerHTML = '<p>Testing API endpoint: ' + API_BASE_URL + '/health</p>';
+            
+            try {
+                const response = await fetch(API_BASE_URL + '/health');
+                const data = await response.json();
+                resultDiv.innerHTML += '<p>Health check: ' + JSON.stringify(data) + '</p>';
+            } catch (error) {
+                resultDiv.innerHTML += '<p>Error: ' + error.message + '</p>';
+            }
+        };
+        
+        testApi();
+    </script>
+</body>
+</html>

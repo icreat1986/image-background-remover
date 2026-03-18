@@ -17,16 +17,21 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
-  // 自动检测后端 URL：优先使用配置的 URL，否则使用当前域名改端口
+  // 自动检测后端 URL
   const getApiBaseUrl = () => {
+    // 直接使用公网 IP（临时配置）
+    return 'http://170.106.193.53:8000';
+    
+    // 以下代码暂时注释，待确认环境变量加载后再考虑启用
+    /*
     const configuredUrl = import.meta.env.VITE_API_URL;
     if (configuredUrl) {
       return configuredUrl;
     }
-    // 如果没有配置，从当前 URL 推断
     const currentOrigin = window.location.origin;
     const url = new URL(currentOrigin);
     return `${url.protocol}//${url.hostname}:8000`;
+    */
   };
 
   const API_BASE_URL = getApiBaseUrl();
